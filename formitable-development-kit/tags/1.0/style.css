@@ -1,0 +1,28 @@
+.wp-picker-holder
+{
+	position:absolute;
+}
+
+.wp-picker-container{
+	margin:6px 0 0 2px;
+}
+
+.ft-table{
+	margin:10px 0 30px;
+}
+
+.ft-table-active td{
+	padding-bottom:10px;
+}
+
+.ft-table-language td{
+	padding-bottom:5px;
+}
+
+table.ft-table td{
+	min-width:135px;
+}
+
+input[type=checkbox]{
+	margin: 0px 10px 0px 2px;
+}
