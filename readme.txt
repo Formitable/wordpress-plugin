@@ -1,9 +1,9 @@
 === Formitable Development Kit ===
 Tags: Formitable, Restaurant, Reservations, Reservation System, Bookings, Widget, Tickets, Prepaid Reservations
 Requires at least: 3
-Tested up to: 4.9.6
+Tested up to: 5.2.3
 Requires PHP: 4
-Stable tag: 1.2
+Stable tag: 1.2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -17,8 +17,12 @@ Please note that the Formitable SDK is a JavaScript-file hosted externally at ht
 
 == Installation ==
 After installing you will find Formitable in your settings menu. Add your restaurant UID and activate the booking widget to start receiving reservations for your restaurant.
+Find the complete documentation for your Formitable widget here: https://formitable.com/en/developers/widget
 
 == Changelog ==
+
+= 1.2.1 =
+* Tested with new Wordpress release. Updated links and documentation.
 
 = 1.2 =
 * Added option to activate Analytics module, new embed script
