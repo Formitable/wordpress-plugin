@@ -212,9 +212,17 @@ if(
 			<tr class="ft-table-language"><td><span><?php _e("Language: " ); ?></span></td>
 				<td>
 					<select name="ft_booking_language">
-						<option <?php if($ft_booking_language == "auto") echo "selected"; ?> value="auto">Auto</option>
-						<option <?php if($ft_booking_language == "nl") echo "selected"; ?> value="nl">Nederlands</option>
+						<option <?php if($ft_booking_language == "browser") echo "selected"; ?> value="browser">Browser language</option>
+						<option <?php if($ft_booking_language == "auto") echo "selected"; ?> value="auto">Website language</option>
+						<option <?php if($ft_booking_language == "ca") echo "selected"; ?> value="ca">Catalan</option>
+						<option <?php if($ft_booking_language == "da") echo "selected"; ?> value="da">Dansk</option>						
+						<option <?php if($ft_booking_language == "de") echo "selected"; ?> value="de">Deutsch</option>
 						<option <?php if($ft_booking_language == "en") echo "selected"; ?> value="en">English</option>
+						<option <?php if($ft_booking_language == "es") echo "selected"; ?> value="es">Español</option>
+						<option <?php if($ft_booking_language == "fr") echo "selected"; ?> value="fr">Français</option>
+						<option <?php if($ft_booking_language == "nb") echo "selected"; ?> value="nb">Norsk (Bokmål)</option>
+						<option <?php if($ft_booking_language == "nl") echo "selected"; ?> value="nl">Nederlands</option>
+						<option <?php if($ft_booking_language == "sv") echo "selected"; ?> value="sv">Svenska</option>
 					</select>
 				</td>
 			</tr>

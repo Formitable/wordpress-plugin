@@ -4,7 +4,7 @@
 Plugin Name: Formitable Development Kit
 Plugin URI: https://formitable.com
 Description: Tools for integrating Formitable on your website.
-Version: 1.2
+Version: 1.4
 Author: Formitable
 License: GPLv2 or later
 */
@@ -53,32 +53,26 @@ function getWidgetHandler(){
 }
 
 function formitable_get_language(){
-	$all_languages = array('en', 'nl');
 	$lang = get_option('ft_booking_language');
-	$locale = get_locale();
 	
-	if ($lang == 'auto')
-	{
-		if(strpos($locale, '_') !== false)
-		{
-			$items = explode('_', $locale);
-			
-			if (in_array($items[0], $all_languages))
-			{
-				return $items[0];
-			}	
-			else
-			{
-				return 'en';
-			}				
-		}
-		else
-		{
+	if ($lang === 'browser')
+		return 'auto';	// 'auto' in FT will take the browser's language, in Wordpress it means the website's language.
+
+	if ($lang === 'auto') {
+		$locale = get_locale();
+
+		if(strpos($locale, '_') === false)
 			return 'en';
-		}
+		
+		$all_languages = array('ca', 'da', 'de', 'es', 'en', 'fr', 'nb', 'nl', 'sv');
+		$items = explode('_', $locale);
+
+		if (in_array($items[0], $all_languages))
+			return $items[0];
+
+		return 'en';
 	}
-	else {
-		return $lang;
-	}
+	
+	return $lang;
 }
 ?>
