@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="app-icon-logo-a" x1="21.259%" x2="99.133%" y1="25.016%" y2="100%">
+      <stop offset="0%" stop-color="#448AFF"/>
+      <stop offset="100%" stop-color="#7900FF"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <rect width="128" height="128" fill="url(#app-icon-logo-a)" rx="12"/>
+    <path fill="#FFF" d="M83.75,24 C91.0677729,24 97,29.9695367 97,37.3333333 C97,44.69713 91.0677729,50.6666667 83.75,50.6666667 C76.4322271,50.6666667 70.5,44.69713 70.5,37.3333333 C70.5,29.9695367 76.4322271,24 83.75,24 Z M63.875,84 L44,104 L44,37.3333333 L63.875,24 L63.875,57.3333333 L77.125,57.3333333 L63.875,70.6666667 L63.875,84 Z"/>
+  </g>
+</svg>
