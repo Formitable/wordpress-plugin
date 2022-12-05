@@ -38,4 +38,3 @@ Find the complete documentation for your Formitable widget here: https://formita
 
 = 1.0.1 =
 * Fix: when selected website language is not supported, widget will display in English.
- 
