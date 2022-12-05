@@ -3,6 +3,9 @@ on:
   push:
     paths:
       - 'tags/**'
+  
+  workflow_dispatch:
+    
 jobs:
   tag:
     name: New tag
