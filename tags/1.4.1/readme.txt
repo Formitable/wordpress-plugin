@@ -1,9 +1,9 @@
 === Formitable Development Kit ===
 Tags: Formitable, Restaurant, Reservations, Reservation System, Bookings, Widget, Tickets, Prepaid Reservations
 Requires at least: 3
-Tested up to: 6.1.1
+Tested up to: 5.6
 Requires PHP: 4
-Stable tag: 1.4.1
+Stable tag: 1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -20,9 +20,6 @@ After installing you will find Formitable in your settings menu. Add your restau
 Find the complete documentation for your Formitable widget here: https://formitable.com/en/developers/widget
 
 == Changelog ==
-
-= 1.4.1 =
-* Tested with Wordpress 6 and PHP 8
 
 = 1.4 =
 * Added three new languages (Danish, Norwegian (Bokmål) and Swedish) and options to use the language of the browser or the Wordpress website as the language for the Widget.
