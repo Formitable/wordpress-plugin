@@ -5,5 +5,3 @@ Formitable is an online table management system for restaurants. Our tools enabl
 
 This plugin adds the Formitable SDK to your website and enables you to add the Formitable booking widget and customize it directly from your settings.
 Please note that the Formitable SDK is a JavaScript-file hosted externally at https://cdn.formitable.com.
-
-
