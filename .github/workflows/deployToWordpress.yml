@@ -5,7 +5,7 @@ on:
     
 jobs:
   tag:
-    name: Push to tags
+    name: Publish plugin on Wordpress.org
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
