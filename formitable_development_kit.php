@@ -4,7 +4,7 @@
 Plugin Name: Formitable Development Kit
 Plugin URI: https://formitable.com
 Description: Tools for integrating Formitable on your website.
-Version: 1.4
+Version: 1.4.1
 Author: Formitable
 License: GPLv2 or later
 */
